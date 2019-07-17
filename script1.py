@@ -22,5 +22,5 @@ def on_scroll(x, y, dx, dy):
 # with Listener(on_move=on_move, on_click=on_click) as listener:
 #     listener.join()
 
-with Listener(on_move=on_move, on_click=on_click) as listener:
+with Listener(on_move=on_move, on_click=on_click, on_scroll=on_scroll) as listener:
     listener.join()
